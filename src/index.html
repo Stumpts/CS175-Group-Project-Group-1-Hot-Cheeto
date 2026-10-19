@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot Cheeto Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#"><span class="brand-mark">HC</span> Hot Cheeto Library</a>
+    <nav>
+      <a class="active" href="#catalog">Catalog</a>
+      <a href="#my-books">My Books</a>
+      <button class="profile-button" type="button">Guest ▾</button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">WELCOME TO YOUR LIBRARY</p>
+      <h1>Book Catalog</h1>
+      <p class="hero-copy">Search and browse available books.</p>
+      <form class="search-bar" id="search-form">
+        <label class="sr-only" for="search-input">Search books</label>
+        <input id="search-input" type="search" placeholder="Search by title or author...">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="catalog-section" id="catalog">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">EXPLORE</p>
+          <h2>Book Catalog</h2>
+        </div>
+        <button class="outline-button" type="button" id="add-book-button">+ Add Book</button>
+      </div>
+      <div class="book-grid" id="book-grid"></div>
+      <p class="empty-state" id="empty-state" hidden>No books matched your search.</p>
+    </section>
+  </main>
+
+  <footer><p>Hot Cheeto Library System · CS175 Group 1</p></footer>
+  <script src="script.js"></script>
+</body>
+</html>
