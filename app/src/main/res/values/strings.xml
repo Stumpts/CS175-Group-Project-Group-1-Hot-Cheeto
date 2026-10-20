@@ -1,4 +1,10 @@
 <resources>
-    <string name="app_name">Hot Cheeto Library</string>
+    <string name="app_name">Gubal</string>
     <string name="search_hint">Search by title or author...</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_button">Login</string>
+    <string name="password_field_hint">Enter password</string>
+    <string name="username_field_hint">Enter username</string>
+    <string name="login_image_content_description">App Logo</string>
 </resources>
